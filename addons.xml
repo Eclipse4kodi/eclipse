@@ -1,0 +1,77 @@
+<addons>
+<addon id="plugin.video.eclipse" version="1.2.0" name="Eclipse" provider-name="Fransalmighty">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.eclipse" />
+		<import addon="script.eclipse.artwork" version="1.0.0" />
+		<import addon="script.eclipse.metadata" version="1.0.0" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+        <import addon="plugin.video.youtube"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+        <provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">eclipse</summary>
+		<description>Movies and Tvshows.</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+</disclaimer>
+		<platform>all</platform>
+		<license></license>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
+
+<addon id="script.eclipse.artwork" version="1.0.6" name="Eclipse Artwork" provider-name="Fransalmighty">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Eclipse Addon</summary>
+		<description>Artwork Module for the eclipse Addon</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+        <license>Beerware rev. 42</license>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.eclipse.metadata" version="1.0.1" name="Eclipse Metadata" provider-name="Fransalmighty">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Eclipse Addon</summary>
+		<description>Metadata for Eclipse.</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+        <license>Beerware rev. 42</license>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.eclipse" name="Eclipse Module" version="1.2.4" provider-name="Fransalmighty">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Eclipse</summary>
+		<description></description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+        <license>Beerware rev. 42</license>
+	</extension>
+</addon>
+</addons>
