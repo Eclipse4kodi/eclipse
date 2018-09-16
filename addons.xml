@@ -94,4 +94,18 @@ The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
 		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
 	</extension>
 </addon>
+	
+<addon id="repository.eclipse" name="[COLOR red]Eclipse Repo[/COLOR]" version="1.0.0" provider-name="Fransalmighty">
+	<extension point="xbmc.addon.repository" name="Eclipse">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Eclipse4kodi/eclipse/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Eclipse4kodi/eclipse/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Eclipse4kodi/eclipse/master/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en">The Official Repo for Eclipse</description>
+	</extension>
+</addon>
 </addons>
